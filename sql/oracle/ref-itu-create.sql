@@ -8,7 +8,7 @@ create table itu_notes (
     note_id     char(3)
                 constraint itu_notes_id_pk
                     primary key,
-    note        text
+    note        varchar(1024)
                 constraint itu_notes_note_nn
                     not null
                 constraint itu_notes_note_uq

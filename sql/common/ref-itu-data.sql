@@ -131,10 +131,10 @@ insert into itu_notes values ('j','Associated with shared country code 882, the 
       </tr>
       <tr>
         <td width="25%" valign="top">
-          AT&amp;T
+          AT &amp;T
         </td>
         <td width="40%" valign="top">
-          AT&amp;T International ATM Network
+          AT &amp;T International ATM Network
         </td>
         <td width="15%" valign="top">
           +882 17
@@ -454,7 +454,7 @@ insert into itu_codes values (acs_object_id_seq.nextval,'384','Spare code',null)
 insert into itu_codes values (acs_object_id_seq.nextval,'385','Croatia (Republic of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'386','Slovenia (Republic of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'387','Bosnia and Herzegovina',null);
-insert into itu_codes values (acs_object_id_seq.nextval,'388','Group of countries,shared code');
+insert into itu_codes values (acs_object_id_seq.nextval,'388','Group of countries,shared code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'389','The Former Yugoslav Republic of Macedonia',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'39','Italy',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'39','Vatican City State',null);
@@ -572,8 +572,8 @@ insert into itu_codes values (acs_object_id_seq.nextval,'839','Spare code','m');
 insert into itu_codes values (acs_object_id_seq.nextval,'84','Viet Nam (Socialist Republic of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'850','Democratic People''s Republic of Korea',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'851','Spare code',null);
-insert into itu_codes values (acs_object_id_seq.nextval,'852','Hongkong,China');
-insert into itu_codes values (acs_object_id_seq.nextval,'853','Macao,China');
+insert into itu_codes values (acs_object_id_seq.nextval,'852','Hongkong,China',null);
+insert into itu_codes values (acs_object_id_seq.nextval,'853','Macao,China',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'854','Spare code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'855','Cambodia (Kingdom of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'856','Lao People''s Democratic Republic',null);
@@ -592,8 +592,8 @@ insert into itu_codes values (acs_object_id_seq.nextval,'877','Reserved ? Mariti
 insert into itu_codes values (acs_object_id_seq.nextval,'878','Reserved ? Universal Personal Telecommunication Service (UPT)','e');
 insert into itu_codes values (acs_object_id_seq.nextval,'879','Reserved for national non-commercial purposes',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'880','Bangladesh (People''s Republic of)',null);
-insert into itu_codes values (acs_object_id_seq.nextval,'881','Global Mobile Satellite System (GMSS),shared code');
-insert into itu_codes values (acs_object_id_seq.nextval,'882','International Networks,shared code');
+insert into itu_codes values (acs_object_id_seq.nextval,'881','Global Mobile Satellite System (GMSS),shared code',null);
+insert into itu_codes values (acs_object_id_seq.nextval,'882','International Networks,shared code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'883','Spare code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'884','Spare code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'885','Spare code',null);
@@ -640,7 +640,7 @@ insert into itu_codes values (acs_object_id_seq.nextval,'978','Spare code',null)
 insert into itu_codes values (acs_object_id_seq.nextval,'979','International Premium Rate Service (IPRS)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'98','Iran (Islamic Republic of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'990','Spare code',null);
-insert into itu_codes values (acs_object_id_seq.nextval,'991','Trial of a proposed new international telecommunication public correspondence service,shared code');
+insert into itu_codes values (acs_object_id_seq.nextval,'991','Trial of a proposed new international telecommunication public correspondence service,shared code',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'992','Tajikistan (Republic of)',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'993','Turkmenistan',null);
 insert into itu_codes values (acs_object_id_seq.nextval,'994','Azerbaijani Republic',null);
