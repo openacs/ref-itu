@@ -13,9 +13,9 @@
         <database>postgresql</database>
     </database-support>
         <owner url="mailto:jon@jongriffin.com">Jon Griffin</owner>
-        <summary>List of ITU-T Recommendation E.164 assigned country codes</summary>
+        <summary>Telecom Country codes, ITU-T Recommendation E.164 for acs-reference.</summary>
         <vendor url="http://www.mayuli.com">Mayuli Enterprises LLC</vendor>
-        <description format="text/html">List of ITU-T Recommendation E.164 assigned country codes</description>
+        <description format="text/html">List of ITU-T Recommendation E.164 assigned country codes.</description>
 
         <provides url="ref-itu" version="0.1d"/>
         <requires url="acs-kernel" version="4.6"/>
