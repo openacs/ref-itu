@@ -31,7 +31,7 @@ create table itu_codes (
 );
 
 
-comment on table itu is '
+comment on table itu_codes is '
     This is the ITU country dialing code list.
 ';
 
