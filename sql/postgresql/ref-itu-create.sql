@@ -16,7 +16,10 @@ create table itu_notes (
 );
 
 create table itu_codes (
-    itu_code    char(6)
+    itu_id      integer
+                constraint itu_code_pk
+                    primary key,
+    code        char(6)
                 constraint itu_code_nn
                     not null,
     country     varchar(100)
@@ -24,9 +27,7 @@ create table itu_codes (
                     not null,
       note_id     char(3)
 		constraint itu_codes_note_fk
-                    references itu_notes (note_id),
-                constraint itu_code_pk
-                    primary key (itu_code,country)
+                    references itu_notes (note_id)
 );
 
 comment on table itu_codes is '
